@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     return const Scaffold(
       backgroundColor: Color(0xFFe9ecef),
       body: Center(
-        child: Text('Home Screen'),
+        child: Text('Home Screen', style: TextStyle(color: Colors.purple, fontWeight: FontWeight.bold)),
       ),
     );
   }
